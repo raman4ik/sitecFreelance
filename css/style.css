@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'Display pro';
+    font-family: 'Display-pro';
     src: url(../fonts/NeueHaasDisplayRoman.ttf);
 }
 
@@ -29,7 +29,7 @@
 
 body {
     font-family: 'Ogg', sans-serif;
-    background: #E5E5E5;
+    background: #f0ece9;
     overflow-x: hidden;
 }
 
@@ -56,12 +56,14 @@ body {
     padding-top: 3px;
 }
 
-.header__btn a{
+.header__btn a {
     text-decoration: none;
     border: 1px solid#242424;
     border-radius: 40px;
-    padding: 16px;
+    padding: 16px 22px;
+    font-size: 16px;
     color: #242424;
+    line-height: 16px;
 }
 
 .nav-o {
@@ -113,12 +115,14 @@ body {
 
 .text-ital {
     font-style: italic;
-    font-family: 'Ogg-Italic' sans-serif;
+    font-weight: 500;
 }
+
 
 .title__promp {
     font-size: 18px;
     white-space: nowrap;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
 }
@@ -194,7 +198,7 @@ body {
 .plants__subTitle {
     font-size: 18px;
     line-height: 40px;
-    font-family: 'Display pro' sans-serif;
+    font-family: 'Display-pro' sans-serif;
     color: #242424;
     opacity: 0.5;
 }
@@ -208,7 +212,7 @@ body {
 .plants__description {
     font-size: 30px;
     line-height: 40px;
-    font-family: 'Display pro' sans-serif;
+    font-family: 'Display-pro' sans-serif;
     color: #242424;
     opacity: 0.5;
 }
@@ -300,7 +304,7 @@ body {
 }
 
 .download__container {
-    max-width: 600px;
+    max-width: 650px;
     position: relative;
 }
 
@@ -330,6 +334,38 @@ body {
     margin-right: 0px;
 }
 
+
+
+
+.download__link-text {
+    color: #fff;
+    z-index: 5;
+    text-align: start;
+    margin: 0px 23px 0px 15px;
+}
+
+.download__link-sub-text {
+    font-size: 19px;
+    font-weight: 200;
+    padding-top: 23px;
+    font-family: 'Display-pro';
+    line-height: 9px;
+    letter-spacing: 2px;
+}
+.download__link-name-text {
+    font-size: 39px;
+    line-height: 50px;
+    font-family: 'Display-pro';
+    
+}
+
+
+
+
+.download__link img:nth-child(2) {
+    margin-right: 0px;
+}
+
 .email-for {
     display: flex;
     justify-content: center;
@@ -352,6 +388,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 101px;
+    
 }
 
 .email-for-input input{
@@ -361,13 +398,17 @@ body {
     background: #DED6CE;
     font-size: 20px;
     line-height: 20px;
+    border: none;
+    outline: none;
 }
 
-
+.email-for-input input::placeholder {
+    opacity: 0.5;
+}
 
 .email__arrow img {
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
+    position: absolute;
 }
 
 .footer {
@@ -386,7 +427,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
-    font-family: 'Display pro';
+    font-family: 'Display-pro';
     color: #171717;
     padding: 0px 24px;
 }
@@ -397,7 +438,7 @@ body {
 
 .footer__copyright {
     margin-top: 22px;
-    
+    font-family: 'Display-pro';
 }
 
 .promp-tel {
@@ -409,6 +450,10 @@ body {
 }
 
 .line-phone {
+    display: none;
+}
+
+.br-phone-email {
     display: none;
 }
 
@@ -561,7 +606,7 @@ body {
     .plants__description {
         font-size: 18px;
         line-height: 27px;
-        font-family: 'Display pro' sans-serif;
+        font-family: 'Display-pro' sans-serif;
         color: #242424;
         opacity: 0.5;
     }
@@ -627,11 +672,16 @@ body {
     }
 
     .email__arrow-tel {
-        display: block;
+        display: inline-block;
+        position: absolute;
+        padding-left: 10px;
     }
-
     .email-for {
         margin-top: 60px;
+    }
+
+    .br-phone-email {
+        display: block;
     }
 
     .email-for__content {
@@ -664,6 +714,7 @@ body {
         margin-left: 10px;
         width: 20px;
         height: 20px;
+        position: relative;
     }
 
     .footer {
@@ -677,7 +728,7 @@ body {
         text-decoration: none;
         font-size: 13px;
         line-height: 16px;
-        font-family: 'Display pro';
+        font-family: 'Display-pro';
         color: #171717;
         padding: 0px 5px;
     }
@@ -705,6 +756,13 @@ body {
 
      .plants__content-number-one {
         right: -20px;
+    }
+    .email__arrow img {
+        margin-top: 10px;
+        margin-left: -2px;
+        width: 20px;
+        height: 20px;
+        position: relative;
     }
 }
 
