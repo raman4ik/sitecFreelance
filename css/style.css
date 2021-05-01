@@ -163,7 +163,7 @@ body {
     line-height: 52px;
     text-indent: 30px;
     margin-right: 42px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 40px;
 }
 
@@ -468,6 +468,12 @@ body {
 
 }
 
+@media (max-width: 1420px) {
+    .workplaces__content-text {
+        margin-left: 10px;
+    }
+}
+
 @media (max-width: 1400px) {
     .line-pc {
         display: none;
@@ -603,7 +609,7 @@ body {
 
     .plants__title {
         font-size: 65px;
-        line-height: 65px;
+        line-height: 77px;
         margin-top: 10px;
     }
 
@@ -763,8 +769,8 @@ body {
         right: -20px;
     }
     .email__arrow img {
-        margin-top: 4px;
-        margin-left: -3px;
+        margin-top: 6px;
+        margin-left: -5px;
         width: 24px;
         height: 26px;
         position: relative;
