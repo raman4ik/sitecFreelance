@@ -610,7 +610,7 @@ body {
     .plants__title {
         font-size: 65px;
         line-height: 77px;
-        margin-top: 10px;
+        margin-top: 6px;
     }
 
     .plants__description {
@@ -769,8 +769,8 @@ body {
         right: -20px;
     }
     .email__arrow img {
-        margin-top: 9px;
-        margin-left: -5px;
+        margin-top: 5px;
+        margin-left: -6px;
         width: 24px;
         height: 26px;
         position: relative;
