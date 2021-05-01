@@ -124,7 +124,7 @@ body {
     font-size: 18px;
     white-space: nowrap;
     text-transform: uppercase;
-    font-family: 'Helvetice';
+    font-family: 'Display-pro';
     display: flex;
     align-items: center;
 }
@@ -290,7 +290,7 @@ body {
 
 
 .plants__content-image-four-circle {
-    width: 531px;
+    width: 470px;
     height: 450px;
     overflow: hidden;
     background: url(../img/Depositphotos_390016368_l-2015\ 1.png);
@@ -652,8 +652,8 @@ body {
     }
 
     .plants__content-image-four-circle {
-        width: 233px;
-        height: 250px;
+        width: 220px;
+        height: 224px;
         margin-top: 45px;
     }
 
